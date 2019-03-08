@@ -29,7 +29,7 @@ namespace DelegatesAndEvents1
         public void Method2()
         {
             MyDelegate myDelegate = new MyDelegate(Method1);
-            myDelegate();
+            myDelegate(50);
         }
 
     }
