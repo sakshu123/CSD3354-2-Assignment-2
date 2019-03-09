@@ -28,7 +28,7 @@ namespace DelegatesAndEvents1
         }
         public void Method2()
         {
-            MyDelegate myDelegate = new MyDelegate(Method1);
+            MyDelegate myDelegate = new MyDelegate(Method2);
             myDelegate();
         }
 
